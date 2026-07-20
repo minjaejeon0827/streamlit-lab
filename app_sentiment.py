@@ -4,6 +4,8 @@ import pandas as pd
 import plotly.graph_objects as go
 from transformers import pipeline
 
+# streamlit app_sentiment.py 소스파일 터미널 실행 명령어
+# streamlit run app_sentiment.py --server.address=0.0.0.0
 
 @st.cache_resource
 def load_sentiment_model():

@@ -1,0 +1,3 @@
+# .gitignore에 반드시 포함
+.env
+.streamlit/secrets.toml
